@@ -7,4 +7,7 @@ public class CarSo : ScriptableObject
     public float speed;
     public float brake;
     public float angle;
+    public string carName;
+    public Sprite carImage;
+    public GameObject carPrefab;
 }

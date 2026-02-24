@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9152528755ba99e45989bcf299b23757, type: 3}
+  m_Name: Car2
+  m_EditorClassIdentifier: 
+  speed: 2500
+  brake: 1000
+  angle: 900
+  carName: McQueen
+  carImage: {fileID: 21300000, guid: f5710170d4aa87649b748509c7c75c1a, type: 3}
+  carPrefab: {fileID: 7981285953320421280, guid: 552300781e6af71419a54ae5fb120dae,
+    type: 3}
