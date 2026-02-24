@@ -14,7 +14,7 @@ public class Selection_Menu : MonoBehaviour
     public Scrollbar angleScrollbar;
 
     [Header("Cars")]
-    public CamMovement2 cam;
+    public MainCameraController cam;
     public CarSo[] cars;
     private int index;
     private CarSo selectedCar;
