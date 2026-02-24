@@ -10262,6 +10262,7 @@ GameObject:
   - component: {fileID: 1016248055}
   - component: {fileID: 1016248058}
   - component: {fileID: 1016248059}
+  - component: {fileID: 1016248060}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -10394,7 +10395,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1016248054}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a803532b9ff9e1546bea847e059dde79, type: 3}
   m_Name: 
@@ -10402,6 +10403,21 @@ MonoBehaviour:
   target: {fileID: 738915182583583703}
   Offset: {x: 0, y: 1.95, z: -2.46}
   Followspeed: 0
+--- !u!114 &1016248060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1016248054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2329df79263794543bb607dc6a2cf741, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 738915182583583703}
+  offset: {x: 0, y: 3, z: -4}
+  followSpeed: 0
 --- !u!1001 &1018501438
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22581,6 +22597,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8107542418021580172, guid: 1b2ea6746553ad346a3c517538d9bba7,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9002297751094249947, guid: 1b2ea6746553ad346a3c517538d9bba7,
+        type: 3}
+      propertyPath: m_Mass
+      value: 2004
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
